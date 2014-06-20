@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.jaxb_ri_2.2">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="WEB-INF/lib"/>
+			<attribute name="owner.project.facets" value="jpt.jaxb"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.generic_7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.jstl_1.2.2">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="WEB-INF/lib"/>
+			<attribute name="owner.project.facets" value="jst.web.jstl"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.jaxrs_jersey_2.0">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="WEB-INF/lib"/>
+			<attribute name="owner.project.facets" value="jst.jaxrs"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Library/Solr/dist/asm-all-repackaged-2.2.0-b21.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/cglib-2.2.0-b21.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/guava-14.0.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/hk2-api-2.2.0-b21.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/hk2-locator-2.2.0-b21.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/hk2-utils-2.2.0-b21.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/javax.inject-2.2.0-b21.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/javax.servlet.jsp.jstl.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/javax.ws.rs-api-2.0.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/jaxb-xjc.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/jersey-client-2.4.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/jersey-common-2.4.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/jersey-container-servlet-2.4.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/jersey-container-servlet-core-2.4.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/jersey-entity-filtering-2.4.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/jersey-media-moxy-2.4.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/jersey-server-2.4.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/jstl-impl-1.2.2.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/org.eclipse.persistence.antlr-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/org.eclipse.persistence.asm-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/org.eclipse.persistence.core-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/org.eclipse.persistence.moxy-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/pinyin4j-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solr-analysis-extras-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solr-cell-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solr-clustering-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solr-core-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solr-dataimporthandler-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solr-dataimporthandler-extras-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solr-langid-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solr-map-reduce-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solr-morphlines-cell-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solr-morphlines-core-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solr-solrj-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solr-test-framework-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solr-uima-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solr-velocity-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/zookeeper-3.4.6.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/zxing-2.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solrj-lib/commons-io-2.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solrj-lib/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solrj-lib/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solrj-lib/httpmime-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solrj-lib/jcl-over-slf4j-1.7.6.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solrj-lib/jul-to-slf4j-1.7.6.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solrj-lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solrj-lib/noggit-0.5.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solrj-lib/slf4j-api-1.7.6.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solrj-lib/slf4j-log4j12-1.7.6.jar"/>
+	<classpathentry kind="lib" path="/Library/Solr/dist/solrj-lib/wstx-asl-3.2.7.jar"/>
+	<classpathentry kind="lib" path="/Users/zplovett/Documents/JavaLib/flickr4java-2.7.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

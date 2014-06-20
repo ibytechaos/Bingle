@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.generic_7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.jstl_1.2.2">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="WEB-INF/lib"/>
+			<attribute name="owner.project.facets" value="jst.web.jstl"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/asm-all-repackaged-2.2.0-b21.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/cglib-2.2.0-b21.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/commons-io-2.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/flickr4java-2.7.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/guava-14.0.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/hk2-api-2.2.0-b21.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/hk2-locator-2.2.0-b21.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/hk2-utils-2.2.0-b21.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/httpmime-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/javax.inject-2.2.0-b21.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/javax.servlet.jsp.jstl.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/javax.ws.rs-api-2.0.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/jaxb-xjc.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/jersey-client-2.4.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/jersey-common-2.4.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/jersey-container-servlet-2.4.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/jersey-container-servlet-core-2.4.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/jersey-entity-filtering-2.4.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/jersey-media-moxy-2.4.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/jersey-server-2.4.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/jstl-impl-1.2.2.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/jul-to-slf4j-1.7.6.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/noggit-0.5.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/org.eclipse.persistence.antlr-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/org.eclipse.persistence.asm-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/org.eclipse.persistence.core-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/org.eclipse.persistence.moxy-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/pinyin4j-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/slf4j-api-1.7.6.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/slf4j-log4j12-1.7.6.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/solr-analysis-extras-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/solr-cell-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/solr-clustering-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/solr-core-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/solr-dataimporthandler-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/solr-dataimporthandler-extras-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/solr-langid-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/solr-map-reduce-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/solr-morphlines-cell-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/solr-morphlines-core-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/solr-solrj-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/solr-test-framework-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/solr-uima-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/solr-velocity-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/wstx-asl-3.2.7.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/zookeeper-3.4.6.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/webapps/Bingle/WEB-INF/lib/zxing-2.1.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

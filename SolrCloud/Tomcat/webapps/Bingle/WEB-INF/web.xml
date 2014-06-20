@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>Bingle</display-name>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>JAX-RS Servlet</servlet-name>
+    <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>MoreLikeThis</servlet-name>
+    <servlet-class>bingle.MoreLikeThis</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostSearch</servlet-name>
+    <servlet-class>bingle.PostSearch</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>JAX-RS Servlet</servlet-name>
+    <url-pattern>/jaxrs/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MoreLikeThis</servlet-name>
+    <url-pattern>/servlet/MoreLikeThis</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostSearch</servlet-name>
+    <url-pattern>/servlet/PostSearch</url-pattern>
+  </servlet-mapping>
+</web-app>

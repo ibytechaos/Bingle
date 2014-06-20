@@ -1,0 +1,549 @@
+05-Jun-2014 07:54:28.339 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/zplovett/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+05-Jun-2014 07:54:28.571 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 07:54:28.591 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 07:54:28.593 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 07:54:28.594 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 07:54:28.595 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 553 ms
+05-Jun-2014 07:54:28.619 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Jun-2014 07:54:28.619 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.8
+05-Jun-2014 07:54:28.644 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Library/Tomcat/webapps/solr.war
+05-Jun-2014 07:54:31.959 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2014 07:54:32.031 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Error filterStart
+05-Jun-2014 07:54:32.031 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/solr] startup failed due to previous errors
+05-Jun-2014 07:54:32.041 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Library/Tomcat/webapps/solr.war has finished in 3,396 ms
+05-Jun-2014 07:54:32.041 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/docs
+05-Jun-2014 07:54:32.078 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/docs has finished in 37 ms
+05-Jun-2014 07:54:32.078 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/examples
+05-Jun-2014 07:54:32.389 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/examples has finished in 311 ms
+05-Jun-2014 07:54:32.389 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/host-manager
+05-Jun-2014 07:54:32.416 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/host-manager has finished in 27 ms
+05-Jun-2014 07:54:32.416 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/manager
+05-Jun-2014 07:54:32.440 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/manager has finished in 24 ms
+05-Jun-2014 07:54:32.440 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/ROOT
+05-Jun-2014 07:54:32.454 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/ROOT has finished in 14 ms
+05-Jun-2014 07:54:32.459 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 07:54:32.465 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 07:54:32.466 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3871 ms
+05-Jun-2014 07:54:32.529 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jun-2014 07:54:32.530 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 07:54:32.585 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 07:54:32.636 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Jun-2014 07:54:32.657 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 07:54:32.660 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 07:54:32.660 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 07:54:32.661 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 07:57:46.986 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/zplovett/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+05-Jun-2014 07:57:47.191 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 07:57:47.208 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 07:57:47.210 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 07:57:47.211 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 07:57:47.211 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 505 ms
+05-Jun-2014 07:57:47.232 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Jun-2014 07:57:47.232 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.8
+05-Jun-2014 07:57:47.239 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/docs
+05-Jun-2014 07:57:47.504 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/docs has finished in 264 ms
+05-Jun-2014 07:57:47.504 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/examples
+05-Jun-2014 07:57:47.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/examples has finished in 328 ms
+05-Jun-2014 07:57:47.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/host-manager
+05-Jun-2014 07:57:47.865 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/host-manager has finished in 32 ms
+05-Jun-2014 07:57:47.865 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/manager
+05-Jun-2014 07:57:47.887 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/manager has finished in 22 ms
+05-Jun-2014 07:57:47.887 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/ROOT
+05-Jun-2014 07:57:47.903 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/ROOT has finished in 15 ms
+05-Jun-2014 07:57:47.903 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/solr
+05-Jun-2014 07:57:50.639 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2014 07:57:53.715 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/solr has finished in 5,811 ms
+05-Jun-2014 07:57:53.718 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 07:57:53.725 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 07:57:53.726 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6514 ms
+05-Jun-2014 07:58:09.499 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jun-2014 07:58:09.500 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 07:58:09.556 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 07:58:09.610 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Jun-2014 07:58:09.642 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoader.checkThreadLocalMapForLeaks The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@26749411]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jun-2014 07:58:09.642 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoader.checkThreadLocalMapForLeaks The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@26749411]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jun-2014 07:58:09.642 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoader.checkThreadLocalMapForLeaks The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@26749411]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jun-2014 07:58:09.642 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoader.checkThreadLocalMapForLeaks The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@26749411]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jun-2014 07:58:09.648 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 07:58:09.651 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 07:58:09.651 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 07:58:09.652 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:00:54.734 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/zplovett/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+05-Jun-2014 08:00:54.964 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:00:54.983 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 08:00:54.986 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:00:54.987 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 08:00:54.987 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 559 ms
+05-Jun-2014 08:00:55.011 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Jun-2014 08:00:55.011 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.8
+05-Jun-2014 08:00:55.017 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/docs
+05-Jun-2014 08:00:55.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/docs has finished in 268 ms
+05-Jun-2014 08:00:55.286 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/examples
+05-Jun-2014 08:00:55.679 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/examples has finished in 393 ms
+05-Jun-2014 08:00:55.679 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/host-manager
+05-Jun-2014 08:00:55.706 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/host-manager has finished in 27 ms
+05-Jun-2014 08:00:55.706 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/manager
+05-Jun-2014 08:00:55.727 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/manager has finished in 21 ms
+05-Jun-2014 08:00:55.727 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/ROOT
+05-Jun-2014 08:00:55.743 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/ROOT has finished in 16 ms
+05-Jun-2014 08:00:55.743 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/solr
+05-Jun-2014 08:00:58.643 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2014 08:01:01.563 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/solr has finished in 5,820 ms
+05-Jun-2014 08:01:01.568 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:01:01.575 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:01:01.576 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6588 ms
+05-Jun-2014 08:01:14.049 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jun-2014 08:01:14.050 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:01:14.105 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:01:14.160 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Jun-2014 08:01:14.208 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:01:14.281 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:01:14.282 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:01:14.283 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:02:09.181 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/zplovett/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+05-Jun-2014 08:02:09.398 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:02:09.415 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 08:02:09.417 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:02:09.418 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 08:02:09.418 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 523 ms
+05-Jun-2014 08:02:09.443 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Jun-2014 08:02:09.443 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.8
+05-Jun-2014 08:02:09.450 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/docs
+05-Jun-2014 08:02:09.712 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/docs has finished in 262 ms
+05-Jun-2014 08:02:09.713 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/examples
+05-Jun-2014 08:02:10.086 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/examples has finished in 372 ms
+05-Jun-2014 08:02:10.086 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/host-manager
+05-Jun-2014 08:02:10.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/host-manager has finished in 27 ms
+05-Jun-2014 08:02:10.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/manager
+05-Jun-2014 08:02:10.152 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/manager has finished in 39 ms
+05-Jun-2014 08:02:10.153 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/ROOT
+05-Jun-2014 08:02:10.167 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/ROOT has finished in 15 ms
+05-Jun-2014 08:02:10.168 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/solr
+05-Jun-2014 08:02:13.180 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2014 08:02:15.709 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/solr has finished in 5,541 ms
+05-Jun-2014 08:02:15.712 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:02:15.719 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:02:15.720 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6301 ms
+05-Jun-2014 08:02:57.148 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jun-2014 08:02:57.148 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:02:57.206 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:02:57.261 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Jun-2014 08:02:57.295 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoader.checkThreadLocalMapForLeaks The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@7b164c32]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jun-2014 08:02:57.296 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoader.checkThreadLocalMapForLeaks The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@7b164c32]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jun-2014 08:02:57.296 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoader.checkThreadLocalMapForLeaks The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@7b164c32]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jun-2014 08:02:57.306 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:02:57.317 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:02:57.318 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:02:57.319 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:18:24.832 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/zplovett/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+05-Jun-2014 08:18:25.066 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:18:25.083 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 08:18:25.085 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:18:25.086 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 08:18:25.087 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 563 ms
+05-Jun-2014 08:18:25.114 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Jun-2014 08:18:25.114 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.8
+05-Jun-2014 08:18:25.122 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/docs
+05-Jun-2014 08:18:25.413 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/docs has finished in 290 ms
+05-Jun-2014 08:18:25.413 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/examples
+05-Jun-2014 08:18:25.793 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/examples has finished in 380 ms
+05-Jun-2014 08:18:25.798 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/host-manager
+05-Jun-2014 08:18:25.821 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/host-manager has finished in 28 ms
+05-Jun-2014 08:18:25.822 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/manager
+05-Jun-2014 08:18:25.860 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/manager has finished in 39 ms
+05-Jun-2014 08:18:25.860 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/ROOT
+05-Jun-2014 08:18:25.874 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/ROOT has finished in 14 ms
+05-Jun-2014 08:18:25.874 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/solr
+05-Jun-2014 08:18:28.887 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2014 08:19:04.602 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/solr has finished in 38,728 ms
+05-Jun-2014 08:19:04.607 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:19:04.613 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:19:04.614 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 39527 ms
+05-Jun-2014 08:19:30.768 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jun-2014 08:19:30.769 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:19:30.825 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:19:30.880 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Jun-2014 08:19:30.915 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:19:30.918 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 08:19:30.918 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 08:19:30.919 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 14:59:47.813 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/zplovett/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+05-Jun-2014 14:59:48.097 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 14:59:48.114 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 14:59:48.117 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 14:59:48.118 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 14:59:48.118 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 655 ms
+05-Jun-2014 14:59:48.154 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Jun-2014 14:59:48.154 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.8
+05-Jun-2014 14:59:48.163 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/docs
+05-Jun-2014 14:59:48.483 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/docs has finished in 319 ms
+05-Jun-2014 14:59:48.483 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/examples
+05-Jun-2014 14:59:48.884 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/examples has finished in 401 ms
+05-Jun-2014 14:59:48.884 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/host-manager
+05-Jun-2014 14:59:48.912 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/host-manager has finished in 27 ms
+05-Jun-2014 14:59:48.912 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/manager
+05-Jun-2014 14:59:48.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/manager has finished in 40 ms
+05-Jun-2014 14:59:48.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/ROOT
+05-Jun-2014 14:59:48.968 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/ROOT has finished in 16 ms
+05-Jun-2014 14:59:48.968 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/solr
+05-Jun-2014 14:59:51.935 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2014 15:00:27.761 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/solr has finished in 38,793 ms
+05-Jun-2014 15:00:27.765 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 15:00:27.772 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 15:00:27.773 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 39653 ms
+05-Jun-2014 15:03:41.734 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jun-2014 15:03:41.735 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 15:03:41.793 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 15:03:41.849 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Jun-2014 15:03:41.877 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 15:03:41.935 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 15:03:41.936 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 15:03:41.936 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 15:43:36.831 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/zplovett/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+05-Jun-2014 15:43:37.117 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 15:43:37.138 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 15:43:37.141 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 15:43:37.142 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 15:43:37.142 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 665 ms
+05-Jun-2014 15:43:37.176 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Jun-2014 15:43:37.176 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.8
+05-Jun-2014 15:43:37.184 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/docs
+05-Jun-2014 15:43:37.507 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/docs has finished in 322 ms
+05-Jun-2014 15:43:37.507 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/examples
+05-Jun-2014 15:43:37.892 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/examples has finished in 385 ms
+05-Jun-2014 15:43:37.892 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/host-manager
+05-Jun-2014 15:43:37.919 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/host-manager has finished in 27 ms
+05-Jun-2014 15:43:37.920 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/manager
+05-Jun-2014 15:43:37.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/manager has finished in 24 ms
+05-Jun-2014 15:43:37.945 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/ROOT
+05-Jun-2014 15:43:37.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/ROOT has finished in 18 ms
+05-Jun-2014 15:43:37.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/solr
+05-Jun-2014 15:43:40.977 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2014 15:44:16.760 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/solr has finished in 38,798 ms
+05-Jun-2014 15:44:16.764 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 15:44:16.771 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 15:44:16.772 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 39629 ms
+05-Jun-2014 15:48:33.455 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 16:21:39.045 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/zplovett/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+05-Jun-2014 16:21:39.353 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 16:21:39.371 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 16:21:39.374 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 16:21:39.376 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 16:21:39.376 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 699 ms
+05-Jun-2014 16:21:39.407 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Jun-2014 16:21:39.408 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.8
+05-Jun-2014 16:21:39.418 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/docs
+05-Jun-2014 16:21:39.742 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/docs has finished in 324 ms
+05-Jun-2014 16:21:39.742 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/examples
+05-Jun-2014 16:21:40.114 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/examples has finished in 371 ms
+05-Jun-2014 16:21:40.114 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/host-manager
+05-Jun-2014 16:21:40.138 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/host-manager has finished in 24 ms
+05-Jun-2014 16:21:40.138 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/manager
+05-Jun-2014 16:21:40.159 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/manager has finished in 21 ms
+05-Jun-2014 16:21:40.159 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/ROOT
+05-Jun-2014 16:21:40.175 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/ROOT has finished in 16 ms
+05-Jun-2014 16:21:40.175 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/solr
+05-Jun-2014 16:21:43.200 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2014 16:22:04.193 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/solr has finished in 24,018 ms
+05-Jun-2014 16:22:04.198 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 16:22:04.206 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 16:22:04.207 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 24830 ms
+05-Jun-2014 16:28:24.324 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/Bingle
+05-Jun-2014 16:28:33.691 INFO [localhost-startStop-2] null.null Initiating Jersey application, version Jersey: 2.4 2013-10-24 18:25:49...
+05-Jun-2014 16:28:34.127 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/Bingle has finished in 9,803 ms
+05-Jun-2014 16:30:01.885 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jun-2014 16:30:01.886 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 16:30:01.943 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 16:30:01.998 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Jun-2014 16:30:02.222 SEVERE [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/solr] appears to have started a thread named [localhost-startStop-1-SendThread(zplovett:2181)] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 16:30:02.222 SEVERE [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "localhost-startStop-1-SendThread(zplovett:2181)":
+ java.lang.Thread.sleep(Native Method)
+ org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:230)
+ org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1185)
+ org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1122)
+05-Jun-2014 16:30:02.222 SEVERE [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoader.checkThreadLocalMapForLeaks The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@6243d456]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jun-2014 16:30:02.223 SEVERE [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoader.checkThreadLocalMapForLeaks The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@6243d456]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jun-2014 16:30:02.223 SEVERE [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoader.checkThreadLocalMapForLeaks The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@6243d456]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jun-2014 16:30:02.223 SEVERE [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoader.checkThreadLocalMapForLeaks The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@6243d456]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jun-2014 16:30:02.223 SEVERE [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoader.checkThreadLocalMapForLeaks The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@6243d456]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jun-2014 16:30:02.223 SEVERE [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoader.checkThreadLocalMapForLeaks The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@6243d456]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jun-2014 16:30:02.223 SEVERE [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoader.checkThreadLocalMapForLeaks The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@6243d456]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jun-2014 16:30:02.231 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 16:30:02.233 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 16:30:02.234 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 16:30:02.235 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 16:30:07.415 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/zplovett/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+05-Jun-2014 16:30:07.713 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 16:30:07.740 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 16:30:07.743 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 16:30:07.744 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jun-2014 16:30:07.745 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 665 ms
+05-Jun-2014 16:30:07.779 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Jun-2014 16:30:07.779 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.8
+05-Jun-2014 16:30:07.787 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/Bingle
+05-Jun-2014 16:30:16.755 INFO [localhost-startStop-1] null.null Initiating Jersey application, version Jersey: 2.4 2013-10-24 18:25:49...
+05-Jun-2014 16:30:17.318 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/Bingle has finished in 9,530 ms
+05-Jun-2014 16:30:17.318 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/docs
+05-Jun-2014 16:30:17.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/docs has finished in 18 ms
+05-Jun-2014 16:30:17.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/examples
+05-Jun-2014 16:30:17.587 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/examples has finished in 251 ms
+05-Jun-2014 16:30:17.587 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/host-manager
+05-Jun-2014 16:30:17.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/host-manager has finished in 22 ms
+05-Jun-2014 16:30:17.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/manager
+05-Jun-2014 16:30:17.628 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/manager has finished in 19 ms
+05-Jun-2014 16:30:17.629 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/ROOT
+05-Jun-2014 16:30:17.641 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/ROOT has finished in 13 ms
+05-Jun-2014 16:30:17.641 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/solr
+05-Jun-2014 16:30:20.117 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2014 16:30:41.511 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/solr has finished in 23,869 ms
+05-Jun-2014 16:30:41.516 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Jun-2014 16:30:41.525 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2014 16:30:41.555 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 33810 ms
+05-Jun-2014 20:31:06.085 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+05-Jun-2014 20:34:13.290 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+05-Jun-2014 20:35:31.031 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Bingle]
+05-Jun-2014 20:35:31.066 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-3-SendThread(localhost:2181)] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.067 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-3-SendThread(localhost:2181)":
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:202)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:103)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:349)
+ org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+05-Jun-2014 20:35:31.067 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-3-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.067 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-3-EventThread":
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:494)
+05-Jun-2014 20:35:31.068 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-7-SendThread(fe80:0:0:0:0:0:0:1%1:2181)] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.068 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-7-SendThread(fe80:0:0:0:0:0:0:1%1:2181)":
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:202)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:103)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:349)
+ org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+05-Jun-2014 20:35:31.068 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-7-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.069 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-7-EventThread":
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:494)
+05-Jun-2014 20:35:31.069 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-6-SendThread(localhost:2181)] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.069 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-6-SendThread(localhost:2181)":
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:202)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:103)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:349)
+ org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+05-Jun-2014 20:35:31.070 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-6-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.070 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-6-EventThread":
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:494)
+05-Jun-2014 20:35:31.070 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-1-SendThread(fe80:0:0:0:0:0:0:1%1:2181)] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.071 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-1-SendThread(fe80:0:0:0:0:0:0:1%1:2181)":
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:202)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:103)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:349)
+ org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+05-Jun-2014 20:35:31.071 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-1-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.071 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-1-EventThread":
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:494)
+05-Jun-2014 20:35:31.071 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-9-SendThread(localhost:2181)] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.072 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-9-SendThread(localhost:2181)":
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:202)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:103)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:349)
+ org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+05-Jun-2014 20:35:31.072 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-9-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.072 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-9-EventThread":
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:494)
+05-Jun-2014 20:35:31.072 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-7-SendThread(localhost:2181)] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.073 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-7-SendThread(localhost:2181)":
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:202)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:103)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:349)
+ org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+05-Jun-2014 20:35:31.073 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-7-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.073 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-7-EventThread":
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:494)
+05-Jun-2014 20:35:31.073 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-6-SendThread(fe80:0:0:0:0:0:0:1%1:2181)] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.074 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-6-SendThread(fe80:0:0:0:0:0:0:1%1:2181)":
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:202)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:103)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:349)
+ org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+05-Jun-2014 20:35:31.074 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-6-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.074 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-6-EventThread":
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:494)
+05-Jun-2014 20:35:31.074 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-7-SendThread(fe80:0:0:0:0:0:0:1%1:2181)] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.075 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-7-SendThread(fe80:0:0:0:0:0:0:1%1:2181)":
+ sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+ sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:202)
+ sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:103)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:349)
+ org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+05-Jun-2014 20:35:31.075 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads The web application [/Bingle] appears to have started a thread named [http-nio-8080-exec-7-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+05-Jun-2014 20:35:31.075 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoader.clearReferencesThreads Stack trace of thread "http-nio-8080-exec-7-EventThread":
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:494)
+05-Jun-2014 20:37:03.502 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+05-Jun-2014 20:39:11.596 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Library/Tomcat/webapps/Bingle
+05-Jun-2014 20:39:21.974 INFO [localhost-startStop-2] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.4 2013-10-24 18:25:49...
+05-Jun-2014 20:39:22.386 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Library/Tomcat/webapps/Bingle has finished in 10,790 ms
+05-Jun-2014 21:19:59.062 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.068 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.140 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.141 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.142 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.192 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.192 WARNING [http-nio-8080-exec-16] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.267 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.271 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.285 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.290 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.302 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.426 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.699 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.842 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.843 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.853 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.854 WARNING [http-nio-8080-exec-16] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.856 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.858 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.860 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:19:59.865 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.126 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.127 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.134 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.136 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.139 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.216 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.219 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.221 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.221 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.307 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.307 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.309 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.310 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.314 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.321 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.349 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.436 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.438 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.443 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.508 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.562 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.568 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.570 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.571 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.631 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.631 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.661 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.692 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.728 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.787 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.862 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.903 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.913 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:00.973 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.041 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.052 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.057 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.083 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.086 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.155 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.169 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.197 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.198 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.252 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.254 WARNING [http-nio-8080-exec-16] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.299 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.308 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.308 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.309 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.342 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.348 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.430 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.432 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.433 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.460 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.548 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.548 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.640 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.641 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.655 WARNING [http-nio-8080-exec-16] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.655 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.656 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.844 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.845 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.850 WARNING [http-nio-8080-exec-16] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.854 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:01.855 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.025 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.026 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.026 WARNING [http-nio-8080-exec-16] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.027 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.031 WARNING [http-nio-8080-exec-17] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.031 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.033 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.140 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.184 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.189 WARNING [http-nio-8080-exec-19] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.298 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.300 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.301 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.317 WARNING [http-nio-8080-exec-12] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.320 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.322 WARNING [http-nio-8080-exec-16] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.325 WARNING [http-nio-8080-exec-15] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.500 WARNING [http-nio-8080-exec-18] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.501 WARNING [http-nio-8080-exec-11] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.504 WARNING [http-nio-8080-exec-13] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:02.666 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:03.123 WARNING [http-nio-8080-exec-14] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:20:03.127 WARNING [http-nio-8080-exec-20] org.apache.catalina.realm.LockOutRealm.authenticate An attempt was made to authenticate the locked user "admin"
+05-Jun-2014 21:43:04.457 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Bingle]
